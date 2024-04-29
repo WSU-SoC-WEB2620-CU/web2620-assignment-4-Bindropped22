@@ -1,1 +1,168 @@
-// Your styles go here
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: pink;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    color: darkblue;
+    padding: 10px;
+}
+
+.left-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.left-nav li {
+    margin-right: 20px;
+}
+
+.right-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.right-nav li {
+    margin-left: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: lightcoral;
+    padding: 40px;
+    color: white;
+}
+
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centered > button {
+    background-color: lightblue;
+    color: blue;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 3px;
+}
+
+h2{
+    text-align: center;
+}
+
+/* Newest products*/
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid lightpink;
+}
+
+.product {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid lightpink;
+    border-radius: 5px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product button {
+    background-color: lightblue;
+    color: blue;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 3px;
+}
+
+.Oproduct-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid lightpink;
+}
+
+.Oproduct {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid lightpink;
+    border-radius: 5px;
+}
+
+.Oproduct img {
+    max-width: 100%;
+}
+
+.Oproduct button {
+    background-color: lightblue;
+    color: blue;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 3px;
+}
+
+.special{
+    background-color: lightcoral;
+    margin-left: 10px;
+    padding: 10px;
+    color:white;
+}
+
+/* Column Styles */
+.columns-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.column-left, .column-middle, .column-right {
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid lightpink;
+    border-radius: 5px;
+}
+
+.columns-grid h4 {
+    text-align: center;
+}
+
+.column-item {
+    text-align: center;
+}
+
+/* Footer Styles*/
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; /* Three equal columns */
+    background-color: lightcoral;
+    color: #fff;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
